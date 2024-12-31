@@ -25,7 +25,7 @@ class ServicesSection extends HTMLElement {
             </div>
             <div class="service-item">
               <div class="service-content">
-                <i class="fa fa-3x fa-utensils"></i>
+                <i class="fa fa-3x fa-star"></i>
                 <h3>Quality Food</h3>
                 <p>Enjoy high-quality meals made with fresh, authentic ingredients.</p>
               </div>
