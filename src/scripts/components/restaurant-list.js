@@ -9,7 +9,7 @@ class RestaurantList extends HTMLElement {
     this.innerHTML = `
       <section class="catalog">
         <div id="restaurantList">
-          <h1 class="restaurant">Explore Restaurant</h1>
+          <h1 class="restaurant" id="maincontent">Explore Restaurant</h1>
           <div class="card-container" id="card"></div>
         </div>
       </section>

@@ -6,7 +6,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 <img class="restaurant__poster" src="${
   CONFIG.BASE_IMAGE_URL + restaurant.pictureId
 }" alt="${restaurant.name}" />
-<h4 class="restaurant__title">${restaurant.name}</h4>
+<h4 class="restaurant__title" id="maincontent">${restaurant.name}</h4>
     <div class="restaurant__rating">
       <div class="rating-container">
         <span class="rating-value">${restaurant.rating}</span>

@@ -2,19 +2,10 @@ import { createRestaurantItemTemplate } from '../../templates/template-creator';
 
 class FavoriteRestaurantView {
   getTemplate() {
-    //   return `
-    // <div class="content">
-    //   <input id="query" type="text">
-    //   <h2 class="restaurant">Your Liked Restaurant</h2>
 
-    //     <div id="restaurants" class="restaurants">
-    //     </div>
-    //   </div>
-    // </div>
-    //   `;
     return `
     <div class="container">
-      <h1 class="restaurant">Favorite Restaurant</h1>
+      <h1 class="restaurant" id="maincontent">Favorite Restaurant</h1>
       <input id="query" type="text" placeholder="Search your favorite restaurant..." />
       <div class="card-container" id="restaurants">
       </div>
@@ -22,7 +13,6 @@ class FavoriteRestaurantView {
   `;
 
   }
-
 
   runWhenUserIsSearching(callback) {
     document.getElementById('query').addEventListener('change', (event) => {
